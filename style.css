@@ -1,0 +1,432 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Paragraph */
+p {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: normal;
+    font-size: 1rem;
+    margin-bottom: 15px;
+
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.tutorial-box,
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    margin-bottom: 30px;
+}
+
+#buttons {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.btn:active {
+    transform: translate(0px, 5px);
+    box-shadow: 0 1px 0 0;
+}
+
+pre {
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/*  button  */
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    position: relative;
+    display: inline-block;
+
+}
+
+/* Specific color  for  button */
+.btn.blue {
+    background-color: #007bff;
+}
+
+.btn.green {
+    background-color: #28a745;
+}
+
+.btn.red {
+    background-color: #dc3545;
+}
+
+.btn.purple {
+    background-color: #6f42c1;
+}
+.blue {
+    background-color: #55acee;
+    box-shadow: 0px 5px 0px 0px #3C93D5;
+}
+
+.blue:hover {
+    background-color: #6FC6FF;
+}
+
+.green {
+    background-color: #2ecc71;
+    box-shadow: 0px 5px 0px 0px #15B358;
+}
+
+.green:hover {
+    background-color: #48E68B;
+}
+
+.purple {
+    background-color: #9b59b6;
+    box-shadow: 0px 5px 0px 0px #82409D;
+}
+
+.purple:hover {
+    background-color: #B573D0;
+}
+
+/* Hover   buttons */
+.btn:hover {
+    opacity: 0.9;
+}
+
+.box {
+    background: #e5e5e5;
+    border: 5px solid #222;
+    padding: 0 15px;
+}
+
+.container {
+    padding: 20px;
+}
+/* Section Styles */
+.section-container {
+    background: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #343a40;
+}
+
+
+/* Button Styles */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Footer Styles */
+footer {
+    background: #343a40;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-content {
+    margin: auto;
+}
+
+.footer-content h2,
+.footer-content h3 {
+    margin: 10px 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+    p {
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        width: 100%;
+        padding: 12px;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .nav-link {
+        font-size: 1rem;
+    }
+
+
+
+    p {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding: 10px;
+    }
+
+    .section-title {
+        font-size: 1.3rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
+    .footer-content {
+        padding: 10px;
+    }
+}
+
+.different {
+    color: goldenrod;
+    font-family: cursive;
+}
+
+#special {
+    text-transform: uppercase;
+    color: teal;
+    text-align: center;
+    font-size: 55px;
+}
+
+.blue {
+    background-color: #55acee;
+    box-shadow: 0px 5px 0px 0px #3C93D5;
+}
+
+.blue:hover {
+    background-color: #6FC6FF;
+}
+
+.green {
+    background-color: #2ecc71;
+    box-shadow: 0px 5px 0px 0px #15B358;
+}
+
+.green:hover {
+    background-color: #48E68B;
+}
+
+.purple {
+    background-color: #9b59b6;
+    box-shadow: 0px 5px 0px 0px #82409D;
+}
+
+.purple:hover {
+    background-color: #B573D0;
+}
+
+.square {
+    background-color: goldenrod;
+    height: 15vw;
+    width: 15vw;
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: coral;
+    width: 10vw;
+    height: 10vw;
+}
+
+.item-container {
+    display: flex;
+    background-color: lightgray;
+    margin-top: 1.5rem;
+}
+
+.end {
+    justify-content: flex-end;
+}
+
+.center-main {
+    justify-content: center;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+button {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.center-cross {
+    align-items: center;
+}
+
+.square-first .square {
+    order: -1;
+}
+
+code {
+    font-family: 'Courier New', monospace;
+}
+
+.result-box {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fafafa;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: white;
+    background-color: #222;
+    padding: 20px;
+}
+
+/* Navbar  */
+.navbar-brand {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.navbar-brand:hover {
+    color: #f8f9fa;
+}
+
+.nav-link {
+    color: #ffffff;
+}
+
+.nav-link.active {
+    color: #f8f9fa;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #adb5bd;
+    text-decoration: underline;
+}
+
+/* Navbar Toggler  */
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Responsive  */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px 0;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 0;
+    }
+
+    .footer-content {
+        color: white;
+        background-color: #222;
+        padding: 20px;
+    }
+}
+
+.about-us {
+    flex: 1;
+}
+
+.about-us h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.about-us p {
+    font-size: 1rem;
+}
+
+.social-links h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.social-links ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+}
+
+.social-links ul li {
+    margin-bottom: 5px;
+}
+
+.social-links ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.social-links ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive  */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .tutorial-box {
+        padding: 15px;
+    }
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+    .navbar {
+        padding: 10px;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .btn {
+        width: 100%;
+        padding: 12px;
+        margin: 10px 0;
+    }
+}
